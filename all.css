@@ -1,0 +1,465 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigasi */
+
+.a1 {
+    width: 100%;
+    height: 40px;
+    background-color: #220000;
+}
+
+.a2 {
+    width: 70%;
+    margin: auto;
+}
+
+.a2 .p1 {
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.a2 ul {
+    float: right;
+    margin-top: 11px;
+}
+
+.a2 ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 5px;
+}
+
+.a2 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Verdana, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    padding: 5px 6px;
+    border-radius: 10px;
+    transition: .8s ease;
+}
+
+.a2 a:hover {
+    background-color: white;
+    color: #220000;
+}
+
+/* Header */
+
+.b1 {
+    width: 100%;
+    height: 305px;
+    background-color: #990000;
+    padding: 35px 0;
+}
+
+.b1img1 {
+    background-image: url(assets/img/Profil.jpg);
+    background-size: cover;
+    background-position: 0 -15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.b1p1 {
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.b1img2 {
+    width: 210px;
+    height: 25px;
+    display: block;
+    margin: -10px auto;
+}
+
+.b1p2 {
+    margin-top: 20px;
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Portfolio */
+
+.c1 {
+    width: 100%;
+    height: 435px;
+    background-color: #fff;
+}
+
+.c1p1 {
+    color: #990000;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.c1img1 {
+    width: 210px;
+    height: 25px;
+    display: block;
+    margin: -13px auto;
+    margin-bottom: 20px;
+}
+
+.c1ct1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.c1ct1img1 {
+    width: 150px;
+    height: 150px;
+    background-image: url(assets/img/1.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.c1ct1img2 {
+    width: 150px;
+    height: 150px;
+    background-image: url(assets/img/2.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.c1ct1img3 {
+    width: 150px;
+    height: 150px;
+    background-image: url(assets/img/3.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.c1ct2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.c1ct2img4 {
+    width: 150px;
+    height: 150px;
+    background-image: url(assets/img/4.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.c1ct2img5 {
+    width: 150px;
+    height: 150px;
+    background-image: url(assets/img/5.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    margin-left: 15px;
+    background-position: center;
+}
+
+.c1ct2img6 {
+    width: 150px;
+    height: 150px;
+    background-image: url(assets/img/6.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    margin-left: 15px;
+    background-position: -33px 0;
+}
+
+/* About */
+
+.d1 {
+    width: 100%;
+    height: 350px;
+    background-color: #990000;
+}
+
+.d2 {
+    width: 50%;
+    margin: auto;
+}
+
+.d2p1 {
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.d2img1 {
+    width: 210px;
+    height: 25px;
+    display: block;
+    margin: -12px auto;
+}
+
+.d2p2 {
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    word-spacing: 2px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.d2 a {
+    padding: 8px 12px;
+    border-radius: 15px;
+    background-color: #990000;
+    border: 2px solid white;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 307.2px;
+    transition: .75s ease;
+    text-decoration: none;
+}
+
+.d2 a:hover {
+    background-color: #fff;
+    color: #990000;
+}
+
+/* Contact */
+
+.e1 {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+
+.e2 {
+    width: 40%;
+    margin: auto;
+}
+
+.e1p1 {
+    color: #990000;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.e1img1 {
+    width: 210px;
+    height: 25px;
+    display: block;
+    margin: -13px auto;
+    margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=email] {
+    width: 93%;
+    border: none;
+    border-bottom: 1px solid #990000;
+    padding: 10px 8px;
+    font-weight: bold;
+    color: #990000;
+    margin: 10px 20px;
+    font-size: 14px;
+}
+
+textarea {
+    width: 93%;
+    height: 150px;
+    border: none;
+    border-bottom: 1px solid #990000;
+    padding: 10px 8px;
+    font-weight: bold;
+    color: #990000;
+    margin: 10px 20px;
+    font-size: 14px;
+}
+
+input[type=submit] {
+    padding: 10px 14px;
+    background-color: #fff;
+    border: 2px solid #990000;
+    border-radius: 10px;
+    margin: 10px 20px;
+    font-weight: bold;
+    color: #990000;
+    transition: .7s ease;
+}
+
+input[type=submit]:hover {
+    background-color: #990000;
+    color: #fff;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #990000;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:-moz-placeholder {
+    color: #990000;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Footer */
+
+.f1 {
+    width: 100%;
+    height: 135px;
+    background-color: #990000;
+}
+
+.f2 {
+    width: 60%;
+    margin: auto;
+}
+
+.f2loc {
+    float: left;
+    width: 30%;
+    background-color: #990000;
+}
+
+.f2p1 {
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.f2p2 {
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    word-spacing: 1px;
+    font-weight: bold;
+    margin-top: -5px;
+    padding-left: 20px;
+    line-height: 17px;
+}
+
+.f2sosmed {
+    float: right;
+    width: 67%;
+    background-color: #990000;
+}
+
+.f2sosmedl {
+    float: left;
+    width: 45%;
+    background-color: #990000;
+}
+
+.f2avr {
+    float: right;
+    width: 55%;
+    background-color: #990000;
+}
+
+.f2p3 {
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding-left: 11px;
+    text-transform: uppercase;
+}
+
+.f2p4 {
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding-left: 47px;
+    text-transform: uppercase;
+}
+
+.f2p5 {
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 12px;
+    word-spacing: 1px;
+    font-weight: bold;
+    margin-top: -5px;
+    padding-left: 25px;
+}
+
+.f2sosmedcon {
+    width: 100%;
+    padding-left: 30px;
+}
+
+.f2sosmedlogo {
+    display: block;
+}
+
+.f2sosmedcon img {
+    cursor: pointer;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: -9px;
+}
+
+/* Copyright */
+
+.copyright {
+    width: 100%;
+    background-color: #220000;
+}
+
+.crp1 {
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
